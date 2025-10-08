@@ -344,13 +344,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Transformer-based RGBT tracking has attracted much attention due to the strong modeling capacity of self attention and cross attention mechanisms.
-These attention mechanisms utilize the correlations among tokens to construct powerful feature representations, but are easily affected by low-quality tokens.
-To address this issue, we propose a novel Quality-aware Spatio-temporal Transformer Network (QSTNet), which calculates the quality weights of tokens in search regions based on the correlation with multimodal template tokens to suppress the negative effects of low-quality tokens in spatio-temporal feature representations, for robust RGBT tracking. 
-In particular, we argue that the correlation between search tokens of one modality and multimodal template tokens could reflect the quality of these search tokens, and thus design the Quality-aware Token Weighting Module (QTWM) based on the correlation matrix of search and template tokens to suppress the negative effects of low-quality tokens.
-Specifically, we calculate the difference matrix derived from the attention matrices of the search tokens from both modalities and the multimodal template tokens, and then assign the quality weight for each search token based on the difference matrix, which reflects the relative correlation of search tokens from different modalities to multimodal template tokens.
-In addition, we propose the Prompt-based Spatio-temporal Encoder Module (PSEM) to utilize spatio-temporal multimodal information while alleviating the impact of low-quality spatio-temporal features.
-Extensive experiments on four RGBT benchmark datasets demonstrate that the proposed QSTNet exhibits superior performance compared to other state-of-the-art tracking methods.
+          Transformer-based RGBT tracking has attracted much attention due to the strong modeling capacity of self attention and cross attention mechanisms.These attention mechanisms utilize the correlations among tokens to construct powerful feature representations, but are easily affected by low-quality tokens.To address this issue, we propose a novel Quality-aware Spatio-temporal Transformer Network (QSTNet), which calculates the quality weights of tokens in search regions based on the correlation with multimodal template tokens to suppress the negative effects of low-quality tokens in spatio-temporal feature representations, for robust RGBT tracking. In particular, we argue that the correlation between search tokens of one modality and multimodal template tokens could reflect the quality of these search tokens, and thus design the Quality-aware Token Weighting Module (QTWM) based on the correlation matrix of search and template tokens to suppress the negative effects of low-quality tokens.Specifically, we calculate the difference matrix derived from the attention matrices of the search tokens from both modalities and the multimodal template tokens, and then assign the quality weight for each search token based on the difference matrix, which reflects the relative correlation of search tokens from different modalities to multimodal template tokens.In addition, we propose the Prompt-based Spatio-temporal Encoder Module (PSEM) to utilize spatio-temporal multimodal information while alleviating the impact of low-quality spatio-temporal features.Extensive experiments on four RGBT benchmark datasets demonstrate that the proposed QSTNet exhibits superior performance compared to other state-of-the-art tracking methods.
           </p>
         </div>
       </div>
@@ -453,3 +447,4 @@ Extensive experiments on four RGBT benchmark datasets demonstrate that the propo
 
   </body>
   </html>
+
